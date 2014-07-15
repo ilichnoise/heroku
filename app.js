@@ -14,7 +14,7 @@ app.set("views",__dirname + "/views");
     app.use(express.static(__dirname));
 //});
  
-server.listen(8080);
+server.listen(5000);
  
 var io = require("socket.io").listen(server);
 
